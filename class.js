@@ -1,4 +1,3 @@
-'use strict';
 // Object-oriented programming
 // class: template
 // object: instance of a class
@@ -38,7 +37,7 @@ class User {
         return this._age;
     }
 
-    set age(value){
+    set age(value) {
         // if (value < 0) {
         //     throw Error('age can not be negative');
         // }
@@ -95,7 +94,7 @@ class Shape {
     }
 }
 
-class Rectangle extends Shape {}
+class Rectangle extends Shape { }
 class Triangle extends Shape {
     draw() {
         super.draw();
